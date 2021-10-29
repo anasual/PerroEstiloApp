@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.example.perroestilopfinal.ui.inicio.InicioFragment"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_categorias"
+        android:name="com.example.perroestilopfinal.ui.categorias.CategoriasFragment"
+        android:label="@string/menu_categorias"
+        tools:layout="@layout/fragment_categorias" />
+
+    <fragment
+        android:id="@+id/nav_etiquetas"
+        android:name="com.example.perroestilopfinal.ui.etiquetas.EtiquetasFragment"
+        android:label="@string/menu_etiquetas"
+        tools:layout="@layout/fragment_etiquetas" />
+    <fragment
+        android:id="@+id/nav_modelos"
+        android:name="com.example.perroestilopfinal.ui.inicio.InicioFragment"
+        android:label="@string/menu_modelos"
+        tools:layout="@layout/fragment_modelos" />
+
+    <fragment
+        android:id="@+id/nav_tallas"
+        android:name="com.example.perroestilopfinal.ui.categorias.CategoriasFragment"
+        android:label="@string/menu_tallas"
+        tools:layout="@layout/fragment_tallas" />
+
+    <fragment
+        android:id="@+id/nav_productos"
+        android:name="com.example.perroestilopfinal.ui.etiquetas.EtiquetasFragment"
+        android:label="@string/menu_productos"
+        tools:layout="@layout/fragment_productos" />
+    <fragment
+        android:id="@+id/nav_kits"
+        android:name="com.example.perroestilopfinal.ui.inicio.InicioFragment"
+        android:label="@string/menu_kit"
+        tools:layout="@layout/fragment_kits" />
+
+    <fragment
+        android:id="@+id/nav_pedidos"
+        android:name="com.example.perroestilopfinal.ui.categorias.CategoriasFragment"
+        android:label="@string/menu_pedidos"
+        tools:layout="@layout/fragment_pedidos" />
+
+    <fragment
+        android:id="@+id/nav_envios"
+        android:name="com.example.perroestilopfinal.ui.etiquetas.EtiquetasFragment"
+        android:label="@string/menu_envios"
+        tools:layout="@layout/fragment_envios" />
+    <fragment
+        android:id="@+id/nav_inventario"
+        android:name="com.example.perroestilopfinal.ui.inicio.InicioFragment"
+        android:label="@string/menu_inventario"
+        tools:layout="@layout/fragment_inventario" />
+
+    <fragment
+        android:id="@+id/nav_ventas"
+        android:name="com.example.perroestilopfinal.ui.categorias.CategoriasFragment"
+        android:label="@string/menu_ventas"
+        tools:layout="@layout/fragment_ventas" />
+
+    <fragment
+        android:id="@+id/nav_clientes"
+        android:name="com.example.perroestilopfinal.ui.etiquetas.EtiquetasFragment"
+        android:label="@string/menu_clientes"
+        tools:layout="@layout/fragment_clientes" />
+    <fragment
+        android:id="@+id/nav_cuenta"
+        android:name="com.example.perroestilopfinal.ui.etiquetas.EtiquetasFragment"
+        android:label="@string/menu_cuenta"
+        tools:layout="@layout/fragment_cuenta" />
+</navigation>

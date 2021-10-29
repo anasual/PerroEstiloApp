@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearCuenta">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="58dp">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fbtnCCBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/fab_margin"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/botones_ok"
+                app:srcCompat="?attr/actionModeCloseDrawable" />
+
+            <TextView
+                android:layout_width="326dp"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:paddingStart="65dp"
+                android:text="@string/registrar"
+                android:textColor="@color/titulos"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/fondo_edit_text"
+                android:hint="@string/nombre"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivCCNombre"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="7dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/persona"
+                    android:translationY="-55dp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtCCNombre"
+                    android:layout_width="290dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/fed"
+                    android:clickable="true"
+                    android:textSize="20dp"
+                    android:textStyle="italic"
+                    android:translationX="20dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/fondo_edit_text"
+                android:hint="@string/apellido"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivCCApellido"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="7dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/persona"
+                    android:translationY="-55dp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtCCApellido"
+                    android:layout_width="290dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/fed"
+                    android:clickable="true"
+                    android:textSize="20dp"
+                    android:textStyle="italic"
+                    android:translationX="20dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/fondo_edit_text"
+                android:hint="@string/email"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivCCEmail"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="7dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/mail"
+                    android:translationY="-55dp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtCCEmail"
+                    android:layout_width="290dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/fed"
+                    android:clickable="true"
+                    android:textSize="20dp"
+                    android:textStyle="italic"
+                    android:translationX="20dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/fondo_edit_text"
+                android:hint="@string/telefono"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivCCTelefono"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="7dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/phone"
+                    android:translationY="-55dp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtCCTelefono"
+                    android:layout_width="290dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/fed"
+                    android:clickable="true"
+                    android:textSize="20dp"
+                    android:textStyle="italic"
+                    android:translationX="20dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/fondo_edit_text"
+                android:hint="@string/r_pass"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivCCRPassword"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="7dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/password"
+                    android:translationY="-55dp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtCCPassword"
+                    android:layout_width="290dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/fed"
+                    android:clickable="true"
+                    android:textSize="20dp"
+                    android:textStyle="italic"
+                    android:translationX="20dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/fondo_edit_text"
+                android:hint="@string/conf_pass"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivCCCPassword"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="7dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/password"
+                    android:translationY="-55dp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtCCCPassword"
+                    android:layout_width="290dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/fed"
+                    android:clickable="true"
+                    android:textSize="20dp"
+                    android:textStyle="italic"
+                    android:translationX="20dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/ckbxCCTerminos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp" />
+            <TextView
+                android:layout_width="303dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:text="@string/terminos"
+                android:textSize="15dp"
+                android:translationY="-10dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnCCRegistrarme"
+                android:layout_width="366dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/botones_ok"
+                android:text="@string/registrarme" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="182dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/f" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnCCRFacebook"
+                        android:layout_width="150dp"
+                        android:layout_height="55dp"
+                        android:background="@drawable/botones_ok"
+                        android:text="@string/r_facebook" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="195dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/g" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnCCRGoogle"
+                        android:layout_width="150dp"
+                        android:layout_height="55dp"
+                        android:background="@drawable/botones_ok"
+                        android:text="@string/r_google" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

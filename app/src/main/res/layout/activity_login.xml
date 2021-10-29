@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/contexto"/>
+        <TextView
+            android:id="@+id/tvStitulo"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/pe"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="italic"/>
+        <TextView
+            android:id="@+id/tvSslogan"
+            android:layout_marginTop="5dp"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/slogan"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="italic"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/fondo_edit_text"
+                android:hint="@string/correo"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivLcorreo"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="7dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/persona"
+                    android:translationY="-55dp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtLcorreo"
+                    android:layout_width="290dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/fed"
+                    android:clickable="true"
+                    android:textSize="20dp"
+                    android:textStyle="italic"
+                    android:translationX="20dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/fondo_edit_text"
+                android:hint="@string/password"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/ivLpassword"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="7dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/password"
+                    android:translationY="-55dp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtLpassword"
+                    android:layout_width="290dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/fed"
+                    android:clickable="true"
+                    android:textSize="20dp"
+                    android:textStyle="italic"
+                    android:translationX="20dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnLIniciar"
+                android:layout_width="354dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:text="@string/iniciar"
+                android:layout_marginTop="15sp"
+                android:backgroundTint="@drawable/botones_ok"/>
+            <Button
+                android:id="@+id/btnLRegistrar"
+                android:layout_width="354dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:text="@string/registrar"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@drawable/botones_ok"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="@string/re_pass"
+                android:textSize="20dp" />
+            <CheckBox
+                android:id="@+id/ckbxLOlvidoPass"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+<!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/f" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnLFacebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/botones_ok"
+                    android:text="@string/facebook" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/g" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnLGoogle"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/botones_ok"
+                    android:text="@string/google" />
+            </LinearLayout>
+
+ -->
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
