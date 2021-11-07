@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PerroEstiloPFinal">
         <activity
+            android:name=".NavigationClienteActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PerroEstiloPFinal.NoActionBar"
+            />
+        <activity
             android:name=".CrearCuenta"
             android:exported="true" />
         <activity
