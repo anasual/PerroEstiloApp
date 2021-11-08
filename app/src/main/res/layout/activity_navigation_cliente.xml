@@ -14,7 +14,6 @@
         android:layout_marginEnd="0dp"
         android:id="@+id/nav_view"
         app:mbn_defaultIconColor="@color/pink_700"
-
         app:mbn_circleColor="@color/white"
         app:mbn_selectedIconColor="@color/pink"
         app:mbn_countTextColor="@color/white"
@@ -22,6 +21,7 @@
         app:mbn_backgroundBottomColor="@color/pink_100"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:fadeScrollbars="true"
         app:layout_constraintRight_toRightOf="parent"/>
     <!-- app:menu="@menu/bottom_nav_menu"-->
 
@@ -37,6 +37,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:elevation="-1dp"
         app:navGraph="@navigation/mobile_navigation" />
 
 

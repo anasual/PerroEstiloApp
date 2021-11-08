@@ -21,6 +21,7 @@
     <string name="menu_clientes">Clientes</string>
     <string name="menu_cuenta">Cuenta</string>
     <string name="pe">PERRO ESTILO</string>
+    <string name="pe1">Perro estilo</string>
     <string name="slogan">ACCESORIOS PARA TI Y TU MASCOTA</string>
 
     <string name="correo">Correo electrónico: </string>
@@ -59,6 +60,18 @@
     <string name="enviarx2">Volver a enviar</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    ---------------------------------------------------
+
+    <string name="bienvenida">Bienvenido</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_inicio_cliente">Inicio</string>
+    <string name="title_tienda_cliente">Tienda</string>
+    <string name="title_carrito_cliente">Carrito</string>
+    <string name="title_cuenta_cliente">Cuenta</string>
+    <string name="title_kits_cliente">KITS</string>
+    <string name="txtDescImg">Descripcion de la imagen</string>
+    <string name="txtDerechos">Copyright&#169; Todos los derechos reservados | Perro Estilo &amp;2021</string>
 
 
 </resources>
