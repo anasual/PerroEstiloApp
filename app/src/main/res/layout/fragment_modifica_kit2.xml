@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".AdminUI.ModificaKit2">
 
     <LinearLayout
@@ -43,17 +44,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/modelo"
-                android:textSize="20dp"
-                android:textStyle="bold"/>
-            <Spinner
-                android:id="@+id/spnMKMod"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp">
+                <AutoCompleteTextView
+                    android:id="@+id/spnMKMod"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/modelo"
+                    android:inputType="none" />
+            </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
         <ImageView
             android:id="@+id/imvMK2"
@@ -71,34 +76,38 @@
             android:text="@string/pEstim"
             android:textSize="16dp"
             android:textColor="#25b1a3"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/precio"
-            android:textSize="16dp"/>
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:endIconMode="clear_text">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etCK2prec"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@android:color/transparent"
+                android:hint="@string/precio"
                 android:inputType="textPersonName" />
         </com.google.android.material.textfield.TextInputLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/btnMK2Confitma"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="@string/modKit" />
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/btnMK2atras"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/cancelar"/>
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cancelar" />
         </LinearLayout>
     </LinearLayout>
 

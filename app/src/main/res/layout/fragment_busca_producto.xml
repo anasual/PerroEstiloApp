@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".AdminUI.BuscaProducto">
 
     <LinearLayout
@@ -19,33 +20,37 @@
         android:textSize="22dp"
         android:textStyle="bold"
         android:textColor="#eda0e2"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/admnModProdID"
-        android:textSize="16dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="horizontal">
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:endIconMode="clear_text"
+                >
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/etBPID"
-                    android:layout_width="286dp"
+                    android:layout_width="280dp"
                     android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/admnModProdID"
                     android:inputType="textPersonName" />
             </com.google.android.material.textfield.TextInputLayout>
 
-            <com.google.android.material.button.MaterialButton
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/BPbSearch"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="7dp"
-                android:drawableLeft="@android:drawable/ic_menu_search"
-                android:textSize="24sp"/>
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                android:src="@drawable/ic_busca"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imgAddProdFoto"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent" />
         </LinearLayout>
         <ImageView
             android:id="@+id/BPimv"
