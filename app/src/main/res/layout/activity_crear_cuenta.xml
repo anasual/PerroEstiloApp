@@ -16,14 +16,6 @@
             android:layout_width="wrap_content"
             android:layout_height="58dp">
 
-            <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/fbtnCCBack"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/fab_margin"
-                android:layout_marginBottom="16dp"
-                android:background="@drawable/botones_ok"
-                app:srcCompat="?attr/actionModeCloseDrawable" />
 
             <TextView
                 android:layout_width="326dp"

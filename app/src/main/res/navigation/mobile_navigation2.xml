@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/navigation_inicio_cliente">
+
+    <fragment
+        android:id="@+id/navigation_inicio_cliente"
+        android:name="com.example.perroestilopfinal.ui.homeCliente.HomeClienteFragment"
+        android:label="@string/title_inicio_cliente"
+        tools:layout="@layout/fragment_home_cliente" />
+
+    <fragment
+        android:id="@+id/navigation_tienda_cliente"
+        android:name="com.example.perroestilopfinal.ui.tienda.TiendaClienteFragment"
+        android:label="@string/title_tienda_cliente"
+        tools:layout="@layout/fragment_tienda_cliente" />
+
+    <fragment
+        android:id="@+id/navigation_carrito_cliente"
+        android:name="com.example.perroestilopfinal.ui.carrito.CarritoFragment"
+        android:label="@string/title_carrito_cliente"
+        tools:layout="@layout/fragment_carrito" />
+
+    <fragment
+        android:id="@+id/navigation_kits_cliente"
+        android:name="com.example.perroestilopfinal.ui.kitsCliente.KitsClienteFragment"
+        android:label="@string/title_kits_cliente"
+        tools:layout="@layout/fragment_kits_cliente" />
+
+    <fragment
+        android:id="@+id/navigation_cuenta_cliente"
+        android:name="com.example.perroestilopfinal.ui.cuentaCliente.CuentaClienteFragment"
+        android:label="@string/title_cuenta_cliente"
+        tools:layout="@layout/fragment_cuenta_cliente" />
+</navigation>
