@@ -27,8 +27,37 @@
         <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/splash.xml" value="0.18229166666666666" />
         <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25104166666666666" />
         <entry key="app/src/main/res/layout/activity_crear_cuenta.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/activity_eliminar_producto.xml" value="0.1921875" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/crear_cuenta.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_agrega_producto.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_busca_producto.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/fragment_buscar_codigo.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/fragment_buscar_kit.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_consulta_kit.xml" value="0.15315315315315314" />
+        <entry key="app/src/main/res/layout/fragment_consultar_codigos.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/fragment_consultar_producto.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/fragment_crear_codigo.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_crear_kit.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/fragment_crear_kit2.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/fragment_eliminar_codigo.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/fragment_eliminar_kit.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/layout/fragment_eliminar_producto.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/fragment_etiquetas.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/layout/fragment_inicio.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/layout/fragment_lista.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/layout/fragment_lista2.xml" value="0.15315315315315314" />
+        <entry key="app/src/main/res/layout/fragment_modifica_kit.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/fragment_modifica_kit2.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/layout/fragment_modifica_producto.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/layout/fragment_modificar_codigo.xml" value="0.12" />
+        <entry key="app/src/main/res/layout/fragment_productos.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/layout/fragment_tallas2.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/layout/fragment_ventas.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/layout/pag_construccion.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/menu/admin_navegation.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/menu/navegacion_admin.xml" value="0.1662162162162162" />
       </map>
     </option>
   </component>
