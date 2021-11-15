@@ -10,7 +10,6 @@
         android:name="com.example.perroestilopfinal.ui.inicio.InicioFragment"
         android:label="@string/menu_inicio"
         tools:layout="@layout/fragment_inicio" />
-
     <fragment
         android:id="@+id/nav_categorias"
         android:name="com.example.perroestilopfinal.ui.categorias.CategoriasFragment"

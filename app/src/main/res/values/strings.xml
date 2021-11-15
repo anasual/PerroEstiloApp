@@ -21,6 +21,7 @@
     <string name="menu_clientes">Clientes</string>
     <string name="menu_cuenta">Cuenta</string>
     <string name="pe">PERRO ESTILO</string>
+    <string name="pe1">Perro estilo</string>
     <string name="slogan">ACCESORIOS PARA TI Y TU MASCOTA</string>
 
     <string name="correo">Correo electrónico: </string>
@@ -53,12 +54,13 @@
     <string name="restablecer">Restablecer contraseña</string>
     <string name="new_pass">Nueva contraseña</string>
 
-    -------------------------------------------------
+    <!-- -->
     <string name="enviar">Enviar</string>
     <string name="aceptar">Aceptar</string>
     <string name="enviarx2">Volver a enviar</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
     ------------------------------
     <string name="admnAgreagProd">Agregar producto</string>
@@ -139,5 +141,190 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="title_activity_navegacion_admin">NavegacionAdmin</string>
+
+    <string name="bienvenida">Bienvenido</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_inicio_cliente">Inicio</string>
+    <string name="title_tienda_cliente">Tienda</string>
+    <string name="title_carrito_cliente">Carrito</string>
+    <string name="title_cuenta_cliente">Cuenta</string>
+    <string name="title_kits_cliente">KITS</string>
+    <string name="txtDescImg">Descripcion de la imagen</string>
+    <string name="txtDerechos">Copyright&#169; Todos los derechos reservados | Perro Estilo &amp;2021</string>
+
+    <!-- Home-->
+    <string name="txtCategorias">Categorías</string>
+    <string name="txtProductos">Productos</string>
+    <string name="txtNombreProducto">Nombre del producto</string>
+    <string name="txtPrecio">$$$  </string>
+    <string name="txtNuestraGaleri">Nuestra galeria</string>
+    <string name="txtMejoresComentarios">Los mejores comentarios</string>
+    <string name="txtUser">User</string>
+    <string name="txtLorem">LoremIm asdjgdfjhskfhkshdf lahfkjsdhfldsjfkdfdslfhkjsgh
+    dskjfhdskjfhksghkshgs</string>
+    <string name="txtLicencias">Licencias</string>
+    <string name="txtParaTi">Para ti    </string>
+    <!-- Tienda-->
+    <string name="txtOfertas">Ofertas</string>
+    <string name="txtModa">Moda</string>
+    <string name="txtKITS">KITS</string>
+    <string name="txtProductosNuevos">Productos nuevos</string>
+    <string name="txtTodasCategorias">Todas las categorias</string>
+    <string name="txtDescuento">Descuento %</string>
+    <string name="txtVerMas">Ver más...</string>
+    <string name="txtNuevo">Nuevo</string>
+    <string name="txtTemporada">Temporada</string>
+    <string name="txtCategoriaPadre">Cateogoria Padre</string>
+    <string name="txtVerTodasCategorias">Ver todas las categorias...</string>
+    <string name="txtVerTodosKits">Ver todos los kits... </string>
+    <string name="txtCategoria1">Categoria 1</string>
+    <string name="txtRaiting">Raiting </string>
+    <string name="txtEscogerTalla">Talla:</string>
+    <string name="txtCantidad">Cantidad:</string>
+    <string name="txtUno">1</string>
+    <string name="txtNombreDelProducto">Nombre del prodcuto</string>
+    <string name="txtComprarAhora">Comprar ahora</string>
+    <string name="txtAgregarCarrito">Añadir al carrito</string>
+    <string name="txtDetallesProducto">Detalles del producto</string>
+    <string name="txtMedidas">Medidas</string>
+    <string name="txtModelo">Modelo</string>
+    <string name="txtMarca">Marca</string>
+    <string name="txtDescripcion">Descripcion</string>
+    <string name="txtPreguntar">Preguntar</string>
+    <string name="txtProductosRelacionados">Productos relacionados</string>
+    <string name="txtTotal">Total:</string>
+    <string name="txtTotalAPagar">Total a pagar:</string>
+    <string name="txtSubtotal">Subtotal</string>
+    <string name="txtVerDetalle">Ver detalle</string>
+    <string name="txtEditar">Editar</string>
+    <string name="txtQuitar">Quitar</string>
+    <string name="txtContinuarComprando">Continuar comprando</string>
+    <string name="txtConfirmarCompra">Confirmar compra</string>
+    <string name="txtCancelar">Cancelar</string>
+    <string name="txtMiCarrito">Mi carrito</string>
+    <string name="txtVerCarrito">Ver carrito</string>
+    <string name="txtContacto">Contacto</string>
+    <string name="txtDireccionEntrega">DireccionEntrega </string>
+    <string name="txtNombreContacto">Nombre(s) </string>
+    <string name="txtAppPContacto">Apellido paterno </string>
+    <string name="txtAppMContacto">Apellido materno </string>
+    <string name="txtTelContacto">Telefono</string>
+    <string name="txtEditarContacto">Editar contacto</string>
+    <string name="txtAgregarDireccion">Agregar direccion</string>
+    <string name="txtAgregarOtraDireccion">Agregar otra direccion</string>
+    <string name="txtEstado">Estado</string>
+    <string name="txtMunicipio">Municipio</string>
+    <string name="txtLocalidad">Localidad</string>
+    <string name="txtCodigoPostal">Codigo postal</string>
+    <string name="txtCalleExterior">Calle y número exterior</string>
+    <string name="txtCalleInterior">Calle y número interior</string>
+    <string name="txtReferencias">Referencias</string>
+    <string name="txtLongitud">Longitud</string>
+    <string name="txtLatitud">Latitud</string>
+    <string name="txtAgregar">Agregar</string>
+    <string name="txtInstrucciones">Instrucciones</string>
+    <string name="txtEnviarPedidoWhats">Enviar pedido por WhatsApp</string>
+    <string name="txtTicketCompra">Ver ticket compra</string>
+    <string name="txtGraciasPorSuCompra">Gracias por su compra</string>
+    <string name="txtOrden">Orden</string>
+    <string name="txtNumeral">#####</string>
+    <string name="txtNoSerie">No. Serie</string>
+    <string name="txtClave">AAAA-4321234</string>
+    <string name="txtDetalleCompra">Detalle de compra</string>
+    <string name="txtDetalleEntrega">Detalle de entrega</string>
+    <string name="txtEstimadoPara">Estimado para el ## de ## de ####</string>
+    <string name="txtVerEnMisPedidos">Ver en mis pedidos</string>
+    <string name="txtImportarTicket">Importar Ticket</string>
+    <string name="txtFechaCompra">Fecha de compra</string>
+    <string name="txtEstatusPedido">Estatus del pedido</string>
+    <string name="txtEstatusProcesando">Procesando</string>
+    <string name="txtEstatusPendiente">Pendiente</string>
+    <string name="txtEstatusEntregado">Entregado</string>
+    <string name="txtEstatusEnCamino">En camino</string>
+    <string name="txtRecogidoEl">Recogido el 31 de octrubre</string>
+    <string name="txtCalificar">Calificar</string>
+    <string name="txtCerrar">Cerrar</string>
+
+    <!-- Cuenta-->
+    <string name="txtNombreUser">Nombre de usuario</string>
+    <string name="txtCuenta">Cuenta</string>
+    <string name="txtCorreoUser">correo del usuario</string>
+    <string name="txtMisDirecciones">Mis direcciones</string>
+    <string name="txtMisPedidos">Mis pedidos</string>
+    <string name="txtAyuda">Ayuda</string>
+    <string name="txtAcercaDeNosotros">Acerca de nosotros</string>
+    <string name="txtAcercaDeAplicacion">Acerca de la aplicación</string>
+    <string name="txtCondicionesYTerminos">Condiciones y política de privacidad</string>
+    <string name="txtAjustes">Ajustes y configuraciones</string>
+    <string name="txtCerrarSessiom">Cerrar sesión</string>
+    <string name="txtPerfil">Perfil</string>
+    <string name="txtLealtad">Lealtad</string>
+    <string name="txtNombreCompleto">Nombre completo</string>
+    <string name="txtFechaNaciimiento">Fecha de nacimiento</string>
+    <string name="txtGenero">Genero</string>
+    <string name="txtTelefono">Telefono</string>
+    <string name="txtEmail">Email</string>
+    <string name="txtCambiarContrasena">Cambiar contraseña</string>
+    <string name="txtEliminarCuenta">Eliminar cuenta</string>
+    <string name="txtTuEdadEs">Tu edad es:</string>
+    <string name="txtEdad">Edad</string>
+    <string name="txtSeleccionGenero">Seleccione su género</string>
+    <string name="txtPrefieroNoDecir">Prefiero no decir</string>
+    <string name="txtMasculino">Masculino</string>
+    <string name="txtFemenino">Femenino</string>
+    <string name="txtOtro">Otro</string>
+    <string name="txtVer">Ver</string>
+    <string name="txtEliminar">Eliminar</string>
+    <string name="txtEntidadFederativa">Entidad federativa</string>
+    <string name="txtAyudaAtencionCliente">Ayuda y atención al cliente</string>
+    <string name="txtEmpresa">Perro estilo</string>
+    <string name="txtQuienesSomos">¿Quienes somos?</string>
+    <string name="txtNuestraMision">Nuestra misión</string>
+    <string name="txtNuestraVisión">Nuestra visión</string>
+    <string name="txtNuestrosValores">Nuestros valores</string>
+    <string name="txtNuestroEquipo">Nuestro equipo</string>
+    <string name="txtOcupacion">Ocupacón</string>
+    <string name="txtCorreoEmpresarial">Correo eléctronico:</string>
+    <string name="txtTelefonoEmpresarial">Teléfono:</string>
+    <string name="txtCreditos">Créditos</string>
+    <string name="txtNombreApp">Nombre de la app</string>
+    <string name="txtUniversidad">Universidad:</string>
+    <string name="txtUniversidadEx">Instituto Tecnologico de Toluca</string>
+    <string name="txtMateria">Materia:</string>
+    <string name="txtMateriaEx">Desarrollo de aplicaciones móviles en Android</string>
+    <string name="txtAutores">Autores</string>
+    <string name="txtPeriodo">Periodo:</string>
+    <string name="txtPeriodoEx">Jun-Dic 2021</string>
+    <string name="txtVersion">Version:</string>
+    <string name="txtVersionEx">1.2.231</string>
+    <string name="txtTerminos">Terminos y condiciones</string>
+    <string name="txtPolitica">Política de privacidad</string>
+    <string name="txtConfiguracion">Ajustes</string>
+    <string name="txtNotificaciones">Notificaciones</string>
+    <string name="txtRecibirNotificaciones">Recibir notificaciones cuando existan nuevos prodcutos</string>
+    <string name="txtRecibirCorreos">Recibir correos cuando existan nuevos prodcutos</string>
+    <string name="txtNotificacionesPrioridad">Recibir notificaciones en alta prioridad</string>
+    <string name="txtVibracion">Vibración</string>
+    <string name="txtLuz">Luz</string>
+    <string name="txtSonido">Sonido</string>
+    <string name="txtTono">Tono de notificación</string>
+    <string name="txtArmarKit">Armar un kit</string>
+    <string name="txtKITSPersonalizado">KIT personalizado</string>
+    <string name="txtQueProdcutosConforman">¿Qué productos conforman tu kit?</string>
+    <string name="txtEscogerKIT">Escoger el KIT</string>
+    <string name="txtConfirmar">Confirmar</string>
+    <string name="txtAtras">Atras</string>
+    <string name="txtAplicarDescuento">Aplicar descuento</string>
+    <string name="txtEscogeMedidas">Escoge tus medidas</string>
+    <string name="txtTerminarKIT">Terminar KIT y añadir al carrito</string>
+    <string name="txtGuiaTallas">Guia de tallas</string>
+    <string name="txtMedidasTalla">Medidas</string>
+    <string name="txtPersonalizarTalla">Personalizada</string>
+    <string name="txtEscogeTalla">Escoger talla </string>
+    <string name="txtBusqueda">Busqueda</string>
+    <string name="txtNoResultados">Resultados entrontrados  </string>
+
+
+
 
 </resources>
