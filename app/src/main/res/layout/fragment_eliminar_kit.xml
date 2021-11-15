@@ -40,11 +40,6 @@
                 android:layout_height="90dp"
                 android:src="@drawable/logo" />
         </LinearLayout>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/idKit"
-            android:textSize="16dp"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -52,24 +47,31 @@
             android:orientation="horizontal"
             android:layout_marginBottom="10dp">
             <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:endIconMode="clear_text">
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/etElimKid"
-                    android:layout_width="286dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/idKit"
                     android:inputType="textPersonName" />
             </com.google.android.material.textfield.TextInputLayout>
 
-            <com.google.android.material.button.MaterialButton
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/btnEKbusca"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:drawableLeft="@android:drawable/ic_menu_search"
-                android:minWidth="0dp"
-                app:iconPadding="0dp"
-                android:layout_gravity="right"/>
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                android:src="@drawable/ic_busca"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imvCCimg"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -119,10 +121,12 @@
             android:layout_width="match_parent"
             android:layout_height="280dp"
             android:id="@+id/lvBKmod"/>
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/btnEKelim"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/Eliminar"/>
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Eliminar" />
     </LinearLayout>
 </FrameLayout>

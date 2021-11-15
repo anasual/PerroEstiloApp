@@ -40,35 +40,36 @@
                 android:layout_height="90dp"
                 android:src="@drawable/logo" />
         </LinearLayout>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/idKit"
-            android:textSize="16dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="horizontal">
             <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:endIconMode="clear_text">
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/etMKID"
-                    android:layout_width="286dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/idKit"
                     android:inputType="textPersonName" />
             </com.google.android.material.textfield.TextInputLayout>
 
-            <com.google.android.material.button.MaterialButton
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/MKbSearch"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="7dp"
-                android:drawableLeft="@android:drawable/ic_menu_search"
-                android:textSize="24sp"
-                app:iconPadding="0dp"
-                android:minWidth="0dp"/>
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                android:src="@drawable/ic_busca"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imvCCimg"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent" />
         </LinearLayout>
         <TextView
             android:layout_width="match_parent"
@@ -78,19 +79,19 @@
             android:textStyle="bold"
             android:gravity="center"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/nomkit"
-            android:textSize="16dp"/>
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:endIconMode="clear_text">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etcknombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName"/>
+                android:ems="10"
+                android:background="@android:color/transparent"
+                android:hint="@string/nomkit"
+                android:inputType="textPersonName" />
         </com.google.android.material.textfield.TextInputLayout>
         <ListView
             android:layout_width="match_parent"
@@ -100,25 +101,33 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/btnckConfitma"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="@string/confirmar" />
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/btnCKatras"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/atras"/>
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/atras" />
         </LinearLayout>
-        <com.google.android.material.button.MaterialButton
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/BtnCKCam"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minWidth="0dp"
-            app:icon="@drawable/ic_agregar"
-            app:iconPadding="0dp"
-            android:layout_gravity="right"
-            android:id="@+id/BtnCKCam"/>
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:src="@drawable/ic_agregar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imvCCimg"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_gravity="right"/>
     </LinearLayout>
 
 </FrameLayout>

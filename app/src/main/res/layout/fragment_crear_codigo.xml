@@ -21,44 +21,58 @@
             android:textStyle="bold"
             android:textColor="#eda0e2"/>
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imvCCimg"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_weight="1"
             android:src="@drawable/ic_menu_gallery" />
-        <com.google.android.material.button.MaterialButton
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/BtnCCCam"
+            android:layout_gravity="right"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minWidth="0dp"
-            app:icon="@drawable/ic_menu_camera"
-            app:iconPadding="0dp"
-            android:layout_gravity="right"
-            android:id="@+id/BtnCCCam"/>
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:src="@drawable/ic_agregar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imvCCimg"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/admnAgreagProdGaleria"
             android:textSize="16dp"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/idprod"
-            android:textSize="16dp"/>
-        <Spinner
-            android:id="@+id/spnCCID"
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/idmod"
-            android:textSize="16dp"/>
-        <Spinner
-            android:id="@+id/spnCCMod"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp">
+            <AutoCompleteTextView
+                android:id="@+id/idmod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/idprod"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"/>
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp">
+            <AutoCompleteTextView
+                android:id="@+id/spnCCMod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/idmod"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -90,91 +104,95 @@
                 android:onClick="onCheckboxClicked"/>
 
         </LinearLayout>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/costoProd"
-            android:textSize="16dp"/>
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:endIconMode="clear_text">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edCCCosProd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@android:color/transparent"
+                android:hint="@string/costoProd"
                 android:inputType="textPersonName" />
         </com.google.android.material.textfield.TextInputLayout>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/precioProd"
-            android:textSize="16dp"/>
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:endIconMode="clear_text">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edCCPrecProd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@android:color/transparent"
+                android:hint="@string/precioProd"
                 android:inputType="textPersonName" />
         </com.google.android.material.textfield.TextInputLayout>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/descuento"
-            android:textSize="16dp"/>
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:endIconMode="clear_text">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edCCDesc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@android:color/transparent"
+                android:hint="@string/descuento"
                 android:inputType="textPersonName" />
         </com.google.android.material.textfield.TextInputLayout>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/stock"
-            android:textSize="16dp"/>
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:endIconMode="clear_text">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edCCStock"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@android:color/transparent"
+                android:hint="@string/stock"
                 android:inputType="textPersonName" />
         </com.google.android.material.textfield.TextInputLayout>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/status"
-            android:textSize="16dp"/>
-        <Spinner
-            android:id="@+id/spnCCstatus"
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"/>
+            android:layout_marginTop="5dp"
+            app:endIconMode="clear_text">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/spnCCstatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@android:color/transparent"
+                android:hint="@string/status"
+                android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/adminCCAgrega"
-                android:layout_width="195dp"
-                android:layout_height="match_parent"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="@string/generaCodigos" />
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/adminCCLimpia"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/limpiar"/>
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/limpiar" />
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>
