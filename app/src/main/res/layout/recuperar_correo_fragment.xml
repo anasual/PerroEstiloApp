@@ -42,12 +42,12 @@
                     android:layout_margin="7dp"
                     android:layout_marginLeft="15dp"
                     android:src="@drawable/mail"
-                    android:translationY="-55dp" />
+                    android:translationY="10dp" />
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/edtRPcorreo"
-                    android:layout_width="290dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="261dp"
+                    android:layout_height="46dp"
                     android:layout_gravity="center"
                     android:background="@drawable/fed"
                     android:clickable="true"

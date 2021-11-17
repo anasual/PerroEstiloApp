@@ -48,84 +48,50 @@
             android:orientation="vertical">
 
             <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:layout_marginLeft="15dp"
-                android:background="@drawable/fondo_edit_text"
-                android:hint="@string/correo"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/ivLcorreo"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:layout_margin="7dp"
-                    android:layout_marginLeft="15dp"
-                    android:src="@drawable/persona"
-                    android:translationY="-55dp" />
+                android:layout_height="wrap_content"
+                app:boxBackgroundMode="outline"
+                android:layout_marginTop="40dp"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:endIconMode="clear_text"
+                android:transitionName="emailTrans"
+                app:startIconDrawable="@drawable/persona">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/edtLcorreo"
-                    android:layout_width="290dp"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:background="@drawable/fed"
-                    android:clickable="true"
-                    android:textSize="20dp"
-                    android:textStyle="italic"
-                    android:translationX="20dp" />
+                    android:id="@+id/editLogUsuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/correo"
+                    android:inputType="textEmailAddress" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="15dp"
-                android:background="@drawable/fondo_edit_text"
-                android:hint="@string/password"
-                android:orientation="horizontal">
-                <ImageView
-                    android:id="@+id/ivLpassword"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:layout_margin="7dp"
-                    android:layout_marginLeft="10dp"
-                    android:src="@drawable/password"
-                    android:translationY="-55dp" />
+                android:layout_height="wrap_content"
+                app:boxBackgroundMode="outline"
+                android:layout_marginTop="20dp"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:passwordToggleEnabled="true"
+                android:transitionName="passTrans"
+                app:startIconDrawable="@drawable/password">
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/edtLpassword"
-                    android:layout_width="290dp"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:background="@drawable/fed"
-                    android:clickable="true"
-                    android:textSize="20dp"
-                    android:textStyle="italic"
-                    android:translationX="20dp"/>
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editLogPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
             </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:orientation="vertical">
-            <Button
-                android:id="@+id/btnLIniciar"
-                android:layout_width="354dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="15dp"
-                android:text="@string/iniciar"
-                android:layout_marginTop="15sp"
-                android:backgroundTint="@drawable/botones_ok"/>
-            <Button
-                android:id="@+id/btnLRegistrar"
-                android:layout_width="354dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="15dp"
-                android:text="@string/registrar"
-                android:layout_marginTop="10dp"
-                android:backgroundTint="@drawable/botones_ok"/>
-        </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="47dp"
@@ -141,6 +107,33 @@
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnLIniciar"
+                android:layout_width="354dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:text="@string/iniciar"
+                android:layout_marginTop="15sp"
+                android:backgroundTint="@drawable/botones_ok"/>
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/logginGoogle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                />
+            <Button
+                android:id="@+id/btnLRegistrar"
+                android:layout_width="354dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:text="@string/registrar"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@drawable/botones_ok"/>
         </LinearLayout>
 
         <LinearLayout

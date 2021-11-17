@@ -3,6 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/drawable/ic_baseline_key_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/activity_crear_cuenta.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/crear_cuenta.xml" value="0.12318840579710146" />
+        <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/fragment_categorias.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/fragment_clientes.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/fragment_cuenta.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/fragment_envios.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/fragment_etiquetas.xml" value="0.1" />
+        <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/fragment_inicio.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/fragment_modelos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/fragment_productos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/recuperar_correo_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/recuperar_password.xml" value="0.25" />
+        <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/recuperar_telefono_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/restablecer_password_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/splash.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/layout/activity_crear_cuenta.xml" value="0.18659420289855072" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/crear_cuenta.xml" value="0.1" />

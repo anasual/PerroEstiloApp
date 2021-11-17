@@ -43,7 +43,7 @@
                     android:layout_margin="7dp"
                     android:layout_marginLeft="15dp"
                     android:src="@drawable/phone"
-                    android:translationY="-65dp" />
+                    android:translationY="5dp" />
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/edtRPtelefono"
