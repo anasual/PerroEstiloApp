@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+
         <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/drawable/ic_baseline_key_24.xml" value="0.2203125" />
         <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/activity_crear_cuenta.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
@@ -20,9 +21,63 @@
         <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/recuperar_telefono_fragment.xml" value="0.25" />
         <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/restablecer_password_fragment.xml" value="0.25" />
         <entry key="..\:/Users/aagui/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/splash.xml" value="0.20416666666666666" />
+
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/drawable-v24/ic_round_format_quote_24.xml" value="0.1984375" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/drawable/botones_ok.xml" value="0.1625" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/drawable/botton_item_backgrond.xml" value="0.1625" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/drawable/corner_imgbt.xml" value="0.2671875" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/drawable/riple2.xml" value="0.2671875" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/activity_crear_cuenta.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/activity_main.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/activity_main2.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/activity_main_cliente.xml" value="0.315668202764977" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/activity_navigation_cliente.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/activity_perfil_cliente.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/cardview_productos.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/fragment_body_home.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/fragment_cabecera.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/fragment_cuenta_cliente.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/fragment_home.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/fragment_home_cliente.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/item_custom_fixed_size_layout_3.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/item_custom_fixed_size_layout_4.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/layout_cabecera.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/layout/splash.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Colossus/AndroidStudioProjects/PerroEstiloApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25104166666666666" />
+
         <entry key="app/src/main/res/layout/activity_crear_cuenta.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/activity_eliminar_producto.xml" value="0.1921875" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/crear_cuenta.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_agrega_producto.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_busca_producto.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/fragment_buscar_codigo.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/fragment_buscar_kit.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_consulta_kit.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_consultar_codigos.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_consultar_producto.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/fragment_crear_codigo.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_crear_kit.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_crear_kit2.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/fragment_eliminar_codigo.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_eliminar_kit.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/fragment_eliminar_producto.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/fragment_etiquetas.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/layout/fragment_inicio.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/layout/fragment_lista.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/layout/fragment_lista2.xml" value="0.15315315315315314" />
+        <entry key="app/src/main/res/layout/fragment_modifica_kit.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_modifica_kit2.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/fragment_modifica_producto.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/layout/fragment_modificar_codigo.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_productos.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/layout/fragment_tallas2.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/layout/fragment_ventas.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/layout/pag_construccion.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/menu/admin_navegation.xml" value="0.1662162162162162" />
+        <entry key="app/src/main/res/menu/navegacion_admin.xml" value="0.1662162162162162" />
       </map>
     </option>
   </component>
